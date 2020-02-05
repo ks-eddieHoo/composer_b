@@ -1,0 +1,21 @@
+{
+    "name": "hushiqiang/composer_b",
+    "description": "sss",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hushiqiang",
+            "email": "hushiqiang@ks-it.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flower\\": "src/Flower"
+        }
+    }
+}
